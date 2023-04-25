@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-line-heights",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ckeditor5-line-height：Suported latest Ckeditor5 version ",
   "main": "src/lineheight.js",
   "dependencies": {
