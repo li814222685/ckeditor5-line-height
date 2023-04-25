@@ -1,0 +1,46 @@
+{
+  "name": "ckeditor5-line-height",
+  "version": "0.1.5",
+  "description": "Plugin for CKEditor5 to create button to change the line height of the selected block.",
+  "main": "src/lineheight.js",
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^37.1.0",
+    "@ckeditor/ckeditor5-ui": "^37.1.0",
+    "@ckeditor/ckeditor5-utils": "^37.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-ckeditor5": "^1.0.7",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=6.9.0",
+    "yarn": ">=1.12.0"
+  },
+  "author": "Sonic.Lee",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/li814222685/ckeditor5-line-height",
+  "bugs": "https://github.com/li814222685/ckeditor5-line-height/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/li814222685/ckeditor5-line-height.git"
+  },
+  "files": [
+    "lang",
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --quiet"
+    ]
+  },
+  "eslintIgnore": [
+    "src/lib/**",
+    "packages/**"
+  ]
+}
