@@ -1,7 +1,7 @@
 {
-  "name": "ckeditor5-line-height",
+  "name": "ckeditor5-line-heights",
   "version": "0.1.5",
-  "description": "Plugin for CKEditor5 to create button to change the line height of the selected block.",
+  "description": "ckeditor5-line-height：Suported latest Ckeditor5 version ",
   "main": "src/lineheight.js",
   "dependencies": {
     "@ckeditor/ckeditor5-core": "^37.1.0",

@@ -1,4 +1,4 @@
-# ckeditor5-line-height
+# ckeditor5-line-heights
 
 Plugin for CKEditor5 to change your lingheight.
 
@@ -7,19 +7,19 @@ Plugin for CKEditor5 to change your lingheight.
 Install:
 
 ```bash
-npm install --save ckeditor5-line-height
+npm install --save ckeditor5-line-heights
 ```
 
 or using yarn:
 
 ```bash
-yarn add ckeditor5-line-height
+yarn add ckeditor5-line-heights
 ```
 
 Use it in your application:
 
 ```js
-import LineHeight from "ckeditor5-line-height/src/lineheight";
+import LineHeight from "ckeditor5-line-heights/src/lineheight";
 ```
 
 Add it to your editor:
