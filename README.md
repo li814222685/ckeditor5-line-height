@@ -29,14 +29,14 @@ ClassicEditor
     .create( document.querySelector( '#editor' ), {
         plugins: [
             ...,
-            LineHeight,
+            LineHeight, //添加到你的插件列表
         ],
         lineHeight: { // 自定义你自己的行高数值
             options: [ 0.5, 1, 1.5, 2, 2.5 ]
         }
         toolbar: [
             ...,
-            'lineHeight', // add the button to your toolbar
+            'lineHeight', // 添加到你的工具栏
         ]
     } )
 ```
