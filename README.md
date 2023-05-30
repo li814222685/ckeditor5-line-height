@@ -29,9 +29,9 @@ ClassicEditor
     .create( document.querySelector( '#editor' ), {
         plugins: [
             ...,
-            LineHeight, // add it to your plugins array
+            LineHeight,
         ],
-        lineHeight: { // specify your otions in the lineHeight config object. Default values are [ 0, 0.5, 1, 1.5, 2 ]
+        lineHeight: { // 自定义你自己的行高数值
             options: [ 0.5, 1, 1.5, 2, 2.5 ]
         }
         toolbar: [
